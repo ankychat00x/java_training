@@ -62,7 +62,7 @@ class Student
 		int min = 1000;
 		int rand = (int)(Math.random() * (max - min));
 		rand =rand +min;
-		UserID = ID + " " + rand + " " + SSN.substring(SSN.length() - 4, SSN.length());
+		UserID = ID +"s" + rand + " " + SSN.substring(SSN.length() - 4, SSN.length());
 		System.out.println("the user id is : " + UserID);
 		System.out.println("the  id is : " + ID);
 		ID++;
