@@ -5,7 +5,7 @@ public class StudentDatabase
 
 	public static void main(String [] args)
 	{
-		Student ob1 = new Student("ankita","234833333");
+		Student ob1 = new Student("ankita","2123444");
 		ob1.UserIDgen();
 		ob1.SetPhone("7076993735");
 		System.out.println("phone number : " + ob1.GetPhone());
